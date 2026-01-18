@@ -74,7 +74,7 @@ const seedData = async () => {
 
         const projects = [
             {
-                title: 'CodeSphere',
+                title: 'codeSphere',
                 description: 'An Online Judge Platform that allows users to submit and evaluate code solutions. Features a secure code compiler for dynamic execution in isolated environments.',
                 techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'Docker', 'AWS'],
                 repoLink: 'https://github.com/comrade-047/codeSphere',

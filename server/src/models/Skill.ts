@@ -11,7 +11,7 @@ const SkillSchema: Schema = new Schema({
     category: {
         type: String,
         required: true,
-        enum: ['Frontend', 'Backend', 'Database', 'Tools', 'Language']
+        enum: ['Frontend', 'Backend', 'Database', 'Tools', 'Language', 'Cloud']
     },
     proficiency: { type: Number, min: 1, max: 10, default: 5}
 });
